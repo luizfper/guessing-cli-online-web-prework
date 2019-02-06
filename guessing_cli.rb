@@ -4,12 +4,12 @@ def run_guessing_game
     comp = 0
     puts "Guess a number between 1 and 6."
     answer = gets.chomp
-    puts answer.to_i
     case answer
     when "exit"
       puts "Goodbye!"
       break
     when answer.to_i.between?(1,6)
+      puts "asdas"
       comp = 1+rand(6)
       if answer.to_i ==comp
         puts "You guessed the correct number!"
