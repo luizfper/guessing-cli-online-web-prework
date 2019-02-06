@@ -6,7 +6,7 @@ def run_guessing_game
     answer = gets.chomp
     if answer == "exit"
       puts "Goodbye!"
-      break
+  #    break
     elsif answer.to_i.between?(1,6)
       comp = rand(1..6)
       if answer.to_i ==comp
