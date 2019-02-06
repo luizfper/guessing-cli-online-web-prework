@@ -4,7 +4,7 @@ def run_guessing_game
     comp = 0
     puts "Guess a number between 1 and 6."
     answer = gets.chomp
-    if answer = "exit"
+    if answer == "exit"
       puts "Goodbye!"
       break
     elsif answer.to_i.between?(1,6)
