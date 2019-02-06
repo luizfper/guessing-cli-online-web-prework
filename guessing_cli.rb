@@ -12,11 +12,8 @@ def run_guessing_game
       if answer.to_i ==comp
         puts "You guessed the correct number!"
         exit_all
-        break
       else
         puts "The computer guessed #{comp}"
-        exit_all
-        break
       end
     end
   end
