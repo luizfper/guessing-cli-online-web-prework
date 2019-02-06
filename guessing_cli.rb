@@ -8,7 +8,7 @@ def run_guessing_game
     when "exit"
       puts "Goodbye!"
       break
-    when (1..6).include?(answer.to_i)
+    when .to_i.between?(1,6)
       puts "asdas"
       comp = 1+rand(6)
       if answer.to_i ==comp
