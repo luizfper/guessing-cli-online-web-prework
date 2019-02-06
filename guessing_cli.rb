@@ -8,8 +8,7 @@ def run_guessing_game
       if answer == "exit"
         exit_all
         break
-      end
-      if answer.to_i.between?(1,6)
+      elsif answer.to_i.between?(1,6)
         comp = rand(1..6)
         if answer.to_i ==comp
           puts "You guessed the correct number!"
