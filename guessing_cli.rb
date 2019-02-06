@@ -1,6 +1,5 @@
 # Code your solution here!
 def run_guessing_game
-  loop do
     comp = 0
     puts "Guess a number between 1 and 6."
     answer = gets.chomp
@@ -18,7 +17,6 @@ def run_guessing_game
       end
       answer = gets.chomp
     end
-  end
 end
 
 def exit_all
