@@ -13,7 +13,7 @@ def run_guessing_game
         puts "You guessed the correct number!"
         break
       else
-        puts "The computer guessed #{comp-1}"
+        print "The computer guessed #{comp-1}"
         break
       end
     end
