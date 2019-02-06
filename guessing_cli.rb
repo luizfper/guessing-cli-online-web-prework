@@ -5,7 +5,7 @@ def run_guessing_game
     puts "Guess a number between 1 and 6."
     answer = gets.chomp
     if answer == "exit"
-      exit
+      exit_all
       break
     elsif answer.to_i.between?(1,6)
       comp = rand(1..6)
@@ -18,7 +18,7 @@ def run_guessing_game
   end
 end
 
-def exit
+def exit_all
  puts "Goodbye!"
 end
 #run_guessing_game
