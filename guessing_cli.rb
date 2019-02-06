@@ -5,8 +5,8 @@ def run_guessing_game
     puts "Guess a number between 1 and 6."
     answer = gets.chomp
     case answer
-
     when "exit"
+      puts "Goodbye!"
       break
     when answer.to_i.between?(1,6)
       comp = 1+rand(6)
