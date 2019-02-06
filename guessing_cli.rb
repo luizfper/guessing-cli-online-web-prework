@@ -15,7 +15,7 @@ def run_guessing_game
       else
         puts "The computer guessed #{comp}"
       end
-      break
     end
+    break
   end
 end
