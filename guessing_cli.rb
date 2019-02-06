@@ -4,7 +4,7 @@ def run_guessing_game
     comp = 0
     puts "Guess a number between 1 and 6."
     answer = gets.chomp
-    puts answer
+    puts answer.to_i
     case answer
     when "exit"
       puts "Goodbye!"
