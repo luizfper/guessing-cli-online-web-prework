@@ -22,4 +22,4 @@ end
 def exit_all
  puts "Goodbye!"
 end
-run_guessing_game
+#run_guessing_game
