@@ -9,7 +9,7 @@ def run_guessing_game
       break
     end
     #if answer.to_i.between?(1,6)
-    #  comp = rand(1..6)
+      comp = rand(1..6)
       if answer.to_i ==comp
         puts "You guessed the correct number!"
         exit_all
