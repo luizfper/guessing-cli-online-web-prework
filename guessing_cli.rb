@@ -12,7 +12,7 @@ def run_guessing_game
       if answer.to_i ==comp
         puts "You guessed the correct number!"
       else
-        puts "The computer guessed #{comp-1}"
+        puts "The computer guessed #{comp}"
       end
     end
   end
