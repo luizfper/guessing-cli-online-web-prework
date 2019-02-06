@@ -17,6 +17,7 @@ def run_guessing_game
       end
       answer = gets.chomp
     end
+    exit_all
 end
 
 def exit_all
