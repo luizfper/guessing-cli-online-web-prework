@@ -2,7 +2,7 @@
 def run_guessing_game
   loop do
     comp = 0
-    puts "Guess a number between 1 and 6."
+    print "Guess a number between 1 and 6."
     answer = gets.chomp
     case answer
     when "exit"
@@ -16,6 +16,5 @@ def run_guessing_game
         puts "The computer guessed #{comp}"
       end
     end
-    break
   end
 end
