@@ -11,8 +11,10 @@ def run_guessing_game
       comp = 1+rand(6)
       if answer.to_i ==comp
         puts "You guessed the correct number!"
+        break
       else
         puts "The computer guessed #{comp}"
+        break
       end
     end
   end
