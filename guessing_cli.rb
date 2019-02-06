@@ -1,12 +1,12 @@
 # Code your solution here!
 def run_guessing_game
-  #loop do
+  Loop do
     comp = 0
     puts "Guess a number between 1 and 6."
     answer = gets.chomp
     if answer == "exit"
       puts "Goodbye!"
-  #    break
+      break
     elsif answer.to_i.between?(1,6)
       comp = 1+rand(6)
       if answer.to_i ==comp
@@ -17,7 +17,7 @@ def run_guessing_game
     else
       puts "invalid answer"
     end
-  #end
+  end
 end
 
-#run_guessing_game
+run_guessing_game
