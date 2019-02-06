@@ -14,8 +14,6 @@ def run_guessing_game
       else
         puts "The computer guessed #{comp}"
       end
-    else
-      puts "invalid answer"
     end
   end
 end
